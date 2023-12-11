@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <div className=''>
-        <h1 className='text-white font-bold text-center pb-10 text-2xl font-dgs'>Projects</h1>
+        <h1 className='text-stone-400 font-bold text-center pb-10 text-2xl font-dgs'>PROJECTS</h1>
         <div className="flex flex-col items-center space-y-10">
             {projects.map((project) => {
                 return(<ProjectCard title={project.title} icon={project.icon} numbers={project.numbers} description={project.description} technologies={project.techonologies} url={project.url} github={project.github}/>);
