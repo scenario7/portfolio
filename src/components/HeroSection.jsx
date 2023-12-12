@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className='h-[500px] flex justify-center items-center '>
         <div className=" flex flex-col items-center">
-            <h1 className='text-white text-center font-dgs font-regular text-2xl'>Hi, I'm Kevin, a</h1>
+            <h1 className='text-white text-center font-dgs font-regular text-2xl'>I am a</h1>
             <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
