@@ -15,7 +15,7 @@ const ProjectCard = ({icon, title, description, url, numbers, technologies, gith
                 <h1 className='font-sans font-light text-stone-300'>{numbers}</h1>
             </div>
             )}
-            <p className='text-stone-400 font-dgs font-semibold text-lg text-center md:text-left'>{description}</p>
+            <p className='text-stone-300 font-dgs font-regular text-lg text-center md:text-left'>{description}</p>
             <div className='flex space-x-3'>
                 {technologies.map((tech, index) => (
                     <div className=''>

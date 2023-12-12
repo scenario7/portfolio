@@ -23,7 +23,7 @@ const Projects = () => {
             github: ""
         },
         {
-            title : "Manipal Bangalore Notice Board",
+            title : "MAHE Bangalore Notice Board",
             description : "An app I made in collaboration with a coding club in my college. It is a digital notice board for all events in our college that is completely open sourced and is built in Flutter.",
             techonologies : ["Flutter", "Strapi", "Sanity"],
             numbers : "",

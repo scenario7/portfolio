@@ -8,7 +8,7 @@ import ContactCard from '../components/ContactCard'
 const HomePage = () => {
   return (
     <div className='flex max-w-fit flex-col items-start px-5'>
-        <div className='w-full flex flex-col items-center space-y-10'>
+        <div className='w-full flex flex-col items-center space-y-5'>
             <NavBar/>
             <HeroSection/>
             <Projects/>
