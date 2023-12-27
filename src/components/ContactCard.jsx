@@ -7,7 +7,7 @@ const ContactCard = () => {
             <h1 className='text-white font-dgs font-semibold text-3xl'>Contact</h1>
             <h1 className='text-stone-300 font-dgs font-regular text-xl'>Need some work done? Reach out to me!</h1>
         </div>
-        <div className="flex items-center py-5 space-x-4 text-lg font-semibold">
+        <div className="flex flex-col items-center lg:items-end md:items-end py-5 text-lg font-semibold">
             <a href="https://linkedin.com/in/kevvinthomas" target='_blank'>
                 <button className='text-blue-300 font-dgs'>
                     LinkedIn
@@ -26,6 +26,11 @@ const ContactCard = () => {
             <a href="https://behance.net/kevvinthomas" target='_blank'>
                 <button className='text-blue-100 font-dgs'>
                     Behance
+                </button>
+            </a>
+            <a href="https://twitter.com/_kevinstappen" target='_blank'>
+                <button className='text-white font-dgs'>
+                    Twitter
                 </button>
             </a>
         </div>

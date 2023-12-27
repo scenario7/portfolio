@@ -4,6 +4,8 @@ import NavBar from '../components/NavBar'
 import Projects from '../components/Projects'
 import CustomFooter from '../components/CustomFooter'
 import ContactCard from '../components/ContactCard'
+import GitHubStats from '../components/GitHubStats'
+import Clients from '../components/Clients'
 
 const HomePage = () => {
   return (
@@ -11,7 +13,9 @@ const HomePage = () => {
         <div className='w-full flex flex-col items-center space-y-5'>
             <NavBar/>
             <HeroSection/>
+            <Clients/>
             <Projects/>
+            <GitHubStats/>
             <ContactCard/>
             <CustomFooter/>
         </div>
