@@ -18,13 +18,13 @@ const GitHubStats = () => {
           </a>
         </div>
       </div>
-      <div className='flex md:flex-row lg:flex-row flex-col gap-3 lg:gap-3 md:gap-3'>
+      <div className='flex md:flex-row lg:flex-row flex-col lg:gap-3 md:gap-3'>
         <a href="https://github.com/anuraghazra/github-readme-stats">
           <img
             height='200px'
             align=""
             src="https://github-readme-stats.vercel.app/api?username=scenario7&theme=dark&hide_border=true&hide_rank=true"
-            className='w-[150px] md:w-[200px] lg:w-[200px]'
+            className='h-40 md:h-48 lg:h-48 w-56'
           />
         </a>
         <a href="https://github.com/anuraghazra/convoychat">
@@ -32,7 +32,7 @@ const GitHubStats = () => {
             height='200p'
             align=""
             src="https://github-readme-stats.vercel.app/api/top-langs?username=scenario7&theme=dark&hide_border=true&layout=compact&langs_count=8&card_width=320"
-            className='w-[150px] md:w-[200px] lg:w-[200px]'
+            className='h-40 md:h-48 lg:h-48 w-56'
           />
         </a>
       </div>
