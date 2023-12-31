@@ -1,5 +1,6 @@
 import React from 'react'
 import { FiExternalLink } from "react-icons/fi";
+import { TiLocationArrow } from "react-icons/ti";
 
 const ExperienceCard = ({params}) => {
 
@@ -11,6 +12,10 @@ const ExperienceCard = ({params}) => {
         <div className='flex items-end gap-3'>
             <h1 className='text-white font-bold font-dgs text-2xl'>{params.company}</h1>
             <h2 className='text-stone-500 font-dgs text-lg'>{params.years}</h2>
+        </div>
+        <div className='text-stone-500 text-md font-dgs flex items-center'>
+            <TiLocationArrow/>
+            {params.location}
         </div>
         <div className='text-stone-400 text-lg'>
             {params.role}

@@ -5,7 +5,7 @@ const GitHubStats = () => {
     <div className='w-full'>
     <h1 className='text-stone-400 font-bold text-center pb-10 text-2xl font-dgs'>GITHUB STATS</h1>
 
-    <div className='flex md:flex-row lg:flex-row flex-col items-center justify-between w-full space-y-5'>
+    <div className='flex  flex-col items-center justify-between w-full space-y-5'>
       <div className='flex gap-3 items-center md:items-center lg:items-center'>
         <img
           src="https://avatars.githubusercontent.com/u/77824686?v=4"
