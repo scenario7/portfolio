@@ -9,7 +9,7 @@ const ContactCard = () => {
             <h1 className='text-white font-dgs font-semibold text-3xl'>Contact</h1>
             <h1 className='text-stone-300 font-dgs font-regular text-xl'>Need some work done? Reach out to me!</h1>
         </div>
-        <div className="flex items-center lg:items-end md:items-end py-5 gap-2 text-lg font-semibold">
+        <div className="flex items-center lg:items-end md:items-end py-5 gap-5 text-lg font-semibold">
             <a href="https://linkedin.com/in/kevvinthomas" target='_blank'>
                 <button className='text-white font-dgs'>
                     <FaLinkedin/>
