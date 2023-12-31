@@ -6,6 +6,7 @@ import CustomFooter from '../components/CustomFooter'
 import ContactCard from '../components/ContactCard'
 import GitHubStats from '../components/GitHubStats'
 import Clients from '../components/Clients'
+import Experiences from '../components/Experiences'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <HeroSection/>
             <Clients/>
             <Projects/>
+            <Experiences/>
             <GitHubStats/>
             <ContactCard/>
             <CustomFooter/>
