@@ -28,8 +28,17 @@ const Experiences = () => {
       role : "Website Developer",
       years : "Oct 2023 - Dec 2023",
       location : "Dubai • Remote",
-      description : "Designed and developed the website for an IT Solutions company bases in Dubai.",
+      description : "Designed and developed the website for an IT Solutions company bases in Dubai. Worked on SEO optimization as well.",
       projectURL : "https://ltitsolutions.com"
+    },
+    {
+      imageURL : "https://panoskin.s3.us-east-2.amazonaws.com/SVE/59c8b621cc94dd7a54b876ae/themes/5f1aef0682139e27dd2272c3/logo/d1f968b3-eb4a-42f1-aa45-a70e53f957d4.png",
+      company : "ICRAFMN-24 MAHE",
+      role : "Website Developer",
+      years : "Dec 2023 - Jan 2024",
+      location : "Bengaluru • Remote",
+      description : "Developed the website for the International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics held by Manipal University Jaipur, MIT Bengaluru and NIT Uttarakhand.",
+      projectURL : ""
     }
   ]
 
