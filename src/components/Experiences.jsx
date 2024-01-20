@@ -46,7 +46,7 @@ const Experiences = () => {
 
   return (
     <div className='flex flex-col items-center w-full pb-10'>
-        <h1 className='text-stone-400 font-bold text-center pb-10 text-2xl font-dgs'>EXPERIENCES</h1>
+        <h1 className='text-stone-400 font-bold text-center pb-10 text-2xl font-dgs'>EXPERIENCE</h1>
         <div className="flex flex-col w-full gap-3">
           {reversedExperiences.map((experience) => {
             return(
