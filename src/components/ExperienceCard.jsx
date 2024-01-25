@@ -13,14 +13,14 @@ const ExperienceCard = ({params}) => {
             <h1 className='text-white font-bold font-dgs text-2xl'>{params.company}</h1>
             <h2 className='text-stone-500 font-dgs text-lg'>{params.years}</h2>
         </div>
-        <div className='text-stone-500 text-md font-dgs flex items-center'>
+        <div className='text-stone-500 text-md lg:text-lg font-dgs flex items-center'>
             <TiLocationArrow/>
             {params.location}
         </div>
         <div className='text-stone-400 text-lg'>
             {params.role}
         </div>
-        <p className='text-white text-sm'>
+        <p className='text-stone-300 text-lg lg:text-xl'>
             {params.description}
         </p>
         </div>

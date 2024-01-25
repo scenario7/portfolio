@@ -38,7 +38,7 @@ const Experiences = () => {
       years : "Dec 2023 - Jan 2024",
       location : "Bengaluru • Remote",
       description : "Developed the website for the International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics held by Manipal University Jaipur, MIT Bengaluru and NIT Uttarakhand.",
-      projectURL : ""
+      projectURL : "https://icrafmn2024.com"
     }
   ]
 
