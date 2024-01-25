@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="">
       <AnimatedCursor 
+        className="hidden lg:block"
         innerSize={8}
         outerSize={8}
         color='256, 256, 256'
