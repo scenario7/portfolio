@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/HomePage';
 import AnimatedCursor from 'react-animated-cursor';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
@@ -16,9 +18,15 @@ function App() {
         outerScale={8}
         trailingSpeed={8}
       />
-      <HomePage/>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<HomePage />} />
+          <Route exact path='/blog' element={<BlogPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;

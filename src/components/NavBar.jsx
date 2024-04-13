@@ -1,8 +1,9 @@
 import React from 'react'
+import pfp from '../images/portfoliopfp.jpg'
 
 const NavBar = () => {
   return (
-    <div className='z-10 bg-[#2b2b2b] backdrop-blur-md py-3 px-10 justify-between space-x-3 bg-opacity-20 flex items-center sticky top-10 rounded-full'>
+    <div className='z-10 bg-[#2b2b2b] backdrop-blur-md py-3 px-6 justify-between space-x-3 bg-opacity-20 flex items-center sticky top-10 rounded-full'>
         {/* <button className='text-white hover:bg-stone-800 px-4 py-3 rounded-full justify-center flex items-center space-x-2'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
@@ -12,7 +13,7 @@ const NavBar = () => {
             Home
         </h1>
         </button> */}
-        <img src="https://media.licdn.com/dms/image/D5603AQFolsEdftfOHg/profile-displayphoto-shrink_400_400/0/1703422305274?e=1710979200&v=beta&t=D4QcmVBNBtT2i8F7jkTSn9e3K3krGgc7aTEi0OXqcc0" alt="hello" className='h-14 lg:h-20 rounded-full'/>
+        <img src={pfp} alt="hello" className='h-14 lg:h-16 rounded-full'/>
         <div className="flex flex-col items-start">
             <h1 className='text-white font-dgs font-semibold text-xl lg:text-2xl text-center w-full'>
                 Kevin Thomas

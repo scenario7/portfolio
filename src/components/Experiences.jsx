@@ -1,5 +1,6 @@
 import React from 'react'
 import ExperienceCard from './ExperienceCard'
+import ltitsolutionslogo from '../images/ltitlogo.jpeg'
 
 const Experiences = () => {
 
@@ -14,7 +15,7 @@ const Experiences = () => {
       projectURL : "https://koodook.com/product-category/official-merchandise/f1ndia/"
     },
     {
-      imageURL : "https://media.licdn.com/dms/image/C4E0BAQF85HgcygiRFQ/company-logo_200_200/0/1630636966967/derivainc_logo?e=1712188800&v=beta&t=E-ltIv9ENRRLVOB2PlrulFmqjKfSaq0y91Vh4WlUd-0",
+      imageURL : "https://media.licdn.com/dms/image/C4E0BAQF85HgcygiRFQ/company-logo_200_200/0/1630636966967/derivainc_logo?e=1721260800&v=beta&t=V1S5eggxa9XUlPWlGEK80OzwkSISPYE0y31nzGSUQCs",
       company : "Deriva",
       role : "iOS Engineering Intern",
       years : "Jun 2021 - Oct 2021",
@@ -23,7 +24,7 @@ const Experiences = () => {
       projectURL : "https://www.linkedin.com/company/derivainc/"
     },
     {
-      imageURL : "https://media.licdn.com/dms/image/D4D0BAQF-7Mw7Wo9ycQ/company-logo_200_200/0/1683399756507?e=1712188800&v=beta&t=EU10cqLgG-8Uh-o40GV1Qz6e4QTDZfRLMV_FsE-QrZ0",
+      imageURL : 'https://media.licdn.com/dms/image/D4D0BAQF-7Mw7Wo9ycQ/company-logo_200_200/0/1683399756507?e=1721260800&v=beta&t=A_bTn6ZuaVD0txCzRojz8cf6hTiHMaWsft5p06jF7oA',
       company : "LT IT Solutions",
       role : "Website Developer",
       years : "Oct 2023 - Dec 2023",
