@@ -8,7 +8,7 @@ const Projects = () => {
             title : "Mumbai Metro",
             description : "An app I made for the metro train network in Mumbai. The app features station maps, a fare calculator, bus information for every single station, emergency contact info, train timetables and the ability to top-up your travel card.",
             techonologies : ["SwiftUI", "Firebase", "Google AdMob"],
-            numbers : "30,000 Downloads",
+            numbers : "40,000 Downloads",
             icon : "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/4d/95/f5/4d95f513-43ab-e11d-c5b1-6f5d5252f409/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/492x0w.webp",
             url : "https://apps.apple.com/in/app/mumbai-metro/id1621720810",
             github: ""
