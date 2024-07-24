@@ -15,7 +15,7 @@ const Experiences = () => {
       projectURL : "https://koodook.com/product-category/official-merchandise/f1ndia/"
     },
     {
-      imageURL : "https://media.licdn.com/dms/image/C4E0BAQF85HgcygiRFQ/company-logo_200_200/0/1630636966967/derivainc_logo?e=1721260800&v=beta&t=V1S5eggxa9XUlPWlGEK80OzwkSISPYE0y31nzGSUQCs",
+      imageURL : "https://media.licdn.com/dms/image/C4E0BAQF85HgcygiRFQ/company-logo_200_200/0/1630636966967/derivainc_logo?e=2147483647&v=beta&t=WpV-EP3DgVjfyO52NJSSMzxPgFacToZEF3qK4akPk5U",
       company : "Deriva",
       role : "iOS Engineering Intern",
       years : "Jun 2021 - Oct 2021",
@@ -24,7 +24,7 @@ const Experiences = () => {
       projectURL : "https://www.linkedin.com/company/derivainc/"
     },
     {
-      imageURL : 'https://media.licdn.com/dms/image/D4D0BAQF-7Mw7Wo9ycQ/company-logo_200_200/0/1683399756507?e=1721260800&v=beta&t=A_bTn6ZuaVD0txCzRojz8cf6hTiHMaWsft5p06jF7oA',
+      imageURL : 'https://firebasestorage.googleapis.com/v0/b/vistara-website.appspot.com/o/ltitlogo.jpeg?alt=media&token=7b1cb859-1f90-428b-8a81-2eaf234d05f6',
       company : "LT IT Solutions",
       role : "Website Developer",
       years : "Oct 2023 - Dec 2023",
@@ -40,7 +40,25 @@ const Experiences = () => {
       location : "Bengaluru • Remote",
       description : "Developed the website for the International Conference on Recent Advances in Fluid Mechanics and Nanoelectronics held by Manipal University Jaipur, MIT Bengaluru and NIT Uttarakhand.",
       projectURL : "https://icrafmn2024.com"
-    }
+    },
+    {
+      imageURL : "https://firebasestorage.googleapis.com/v0/b/vistara-website.appspot.com/o/logo_whitepebble.jpeg?alt=media&token=3a2f38f4-8fee-4727-b0ca-2c2d4a21a79b",
+      company : "White Pebble Law LLP",
+      role : "Website Developer",
+      years : "Mar 2024 - Jun 2024",
+      location : "Mumbai • Remote",
+      description : "Designed and developed a website for a full service IP Law firm in Mumbai. Worked on improving SEO with backlinks, keywords and more",
+      projectURL : "https://whitepebble-website.vercel.app"
+    },
+    {
+      imageURL : "https://firebasestorage.googleapis.com/v0/b/vistara-website.appspot.com/o/logo_soundview.webp?alt=media&token=f62d6457-5b27-4a54-97d2-5290c01d2385",
+      company : "Soundview Broadcasting LLC",
+      role : "Website Developer",
+      years : "Jun 2024 - Jul 2024",
+      location : "Long Island, NY • Remote",
+      description : "Designed and developed a website for a media/broadcasting company in the US. Used Next.js and Tailwind CSS to build a modern looking UI which is also SEO friendly",
+      projectURL : "https://soundview-broadcasting.vercel.app"
+    },
   ]
 
   const reversedExperiences = experiences.slice().reverse();
@@ -48,7 +66,7 @@ const Experiences = () => {
   return (
     <div className='flex flex-col items-center w-full pb-10'>
         <h1 className='text-stone-400 font-bold text-center pb-10 text-2xl font-dgs'>EXPERIENCE</h1>
-        <div className="flex flex-col w-full gap-3">
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-5 w-full gap-3">
           {reversedExperiences.map((experience) => {
             return(
               <ExperienceCard params={experience}/>
