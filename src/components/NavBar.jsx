@@ -1,5 +1,6 @@
 import React from 'react'
 import pfp from '../images/portfoliopfp.jpg'
+import profile from '../images/profile.jpg'
 
 const NavBar = () => {
   return (
@@ -13,7 +14,7 @@ const NavBar = () => {
             Home
         </h1>
         </button> */}
-        <img src={pfp} alt="hello" className='h-14 lg:h-16 rounded-full'/>
+        <img src={profile} alt="hello" className='h-14 lg:h-16 rounded-full'/>
         <div className="flex flex-col items-start">
             <h1 className='text-white font-dgs font-semibold text-xl lg:text-2xl text-center w-full'>
                 Kevin Thomas

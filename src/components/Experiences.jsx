@@ -57,7 +57,25 @@ const Experiences = () => {
       years : "Jun 2024 - Jul 2024",
       location : "Long Island, NY • Remote",
       description : "Designed and developed a website for a media/broadcasting company in the US. Used Next.js and Tailwind CSS to build a modern looking UI which is also SEO friendly",
-      projectURL : "https://soundview-broadcasting.vercel.app"
+      projectURL : "https://www.svbroadcast.com/"
+    },
+    {
+      imageURL : "https://firebasestorage.googleapis.com/v0/b/vistara-website.appspot.com/o/qstonelogo.jpg?alt=media&token=f48bfe4b-a1e6-4895-8a85-b765f7844afc",
+      company : "Q Stone Jewels",
+      role : "Website Developer",
+      years : "November 2024 - December 2024",
+      location : "Mumbai, India • Remote",
+      description : "Designed and developed a website for a media/broadcasting company in the US. Used Next.js and Tailwind CSS to build a modern looking UI which is also SEO friendly",
+      projectURL : "https://qstonejewels.com"
+    },
+    {
+      imageURL : "https://firebasestorage.googleapis.com/v0/b/vistara-website.appspot.com/o/AGS%20F1%20-%20JPEG.jpg?alt=media&token=81a81280-f5ee-449d-8ccb-ac85708df8e3",
+      company : "AGS Formula 1",
+      role : "Website Developer",
+      years : "November 2024 - December 2024",
+      location : "Gonfaron, France • Remote",
+      description : "Designed and developed a website for a media/broadcasting company in the US. Used Next.js and Tailwind CSS to build a modern looking UI which is also SEO friendly",
+      projectURL : "https://ags-website-test.vercel.app"
     },
   ]
 
